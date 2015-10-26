@@ -1,0 +1,22 @@
+<?php
+	$firstName = $_POST[“first_name”];
+	$middleName = $_POST[“middle_name”];
+	$lastName = $_POST[“last_name”];
+	$gender = $_POST[“gender”];
+	// Birthday
+	$month = $_POST[“__________”];
+	$day= $_POST[“__________”];
+	$year= $_POST[“__________”];
+	// Program and student type
+	$program = $_POST[“__________”];
+	$studentType= $_POST[“__________”];
+	$address = $_POST[“__________”];
+?>
+First Name: <strong><?php echo $firstName; ?></strong><br />
+Middle Name: <strong><?php echo $middleName; ?></strong><br />
+Last Name: <strong><?php echo $lastName; ?></strong><br />
+Gender: <strong><?php echo _________; ?></strong><br />
+Birthday: <strong><?php echo ___________________; ?></strong><br />
+Program: <strong><?php echo _________; ?></strong><br />
+Student Type: <strong><?php echo _________; ?></strong><br />
+Address: <pre><?php echo _________; ?></pre><br />

@@ -1,0 +1,21 @@
+<html>
+<title>Registration Form</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+
+<body><form method = "POST" action = "register.php">
+        <h1>Student Registration Form</h1>
+	<table>
+		<td>
+			<p>
+			
+			First Name <input type = "text" name = "fname" id = "first_name" size = "10" />
+			Last Name <input type = "text" id = "last_name" size = "10"> 
+			MI <input type = "text" id = "last_name" size = "2" >
+			 </p>
+			<button>Submit</button>
+		</td>
+			
+	</table>	      
+</form>
+</body>
+</html>
